@@ -15,6 +15,7 @@
 		F56DA291267A5C2C001BD8C5 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DA290267A5C2C001BD8C5 /* PersonsListViewController.swift */; };
 		F5A71D9826806FE80032F596 /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A71D9726806FE80032F596 /* Persons.swift */; };
 		F5A71D9B268072890032F596 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A71D9A268072890032F596 /* DataManager.swift */; };
+		F5A71D9E2680A5EC0032F596 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A71D9D2680A5EC0032F596 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F56DA290267A5C2C001BD8C5 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		F5A71D9726806FE80032F596 /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
 		F5A71D9A268072890032F596 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F5A71D9D2680A5EC0032F596 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F56DA278267A5ABA001BD8C5 /* AppDelegate.swift */,
 				F56DA27A267A5ABA001BD8C5 /* SceneDelegate.swift */,
 				F56DA27E267A5ABA001BD8C5 /* Main.storyboard */,
+				F5A71D9D2680A5EC0032F596 /* DetailViewController.swift */,
 				F56DA290267A5C2C001BD8C5 /* PersonsListViewController.swift */,
 				F5A71D9726806FE80032F596 /* Persons.swift */,
 				F5A71D9A268072890032F596 /* DataManager.swift */,
@@ -146,6 +149,7 @@
 				F56DA279267A5ABA001BD8C5 /* AppDelegate.swift in Sources */,
 				F5A71D9B268072890032F596 /* DataManager.swift in Sources */,
 				F56DA291267A5C2C001BD8C5 /* PersonsListViewController.swift in Sources */,
+				F5A71D9E2680A5EC0032F596 /* DetailViewController.swift in Sources */,
 				F5A71D9826806FE80032F596 /* Persons.swift in Sources */,
 				F56DA27B267A5ABA001BD8C5 /* SceneDelegate.swift in Sources */,
 			);

@@ -20,7 +20,7 @@ struct Person {
         
         let names = DataManager.shared.names.shuffled()
         let surNames = DataManager.shared.surNames.shuffled()
-        let emails = DataManager.shared.surNames.shuffled()
+        let emails = DataManager.shared.emails.shuffled()
         let phones = DataManager.shared.phones.shuffled()
         
         

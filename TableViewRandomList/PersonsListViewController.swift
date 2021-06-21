@@ -33,7 +33,10 @@ class PersonsListViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier != "Detail" { return }
         
-        
+        if let indexPath = tableView.indexPathForSelectedRow {
+            let detailVC = segue.destination as! DetailViewController
+            detailVC.person = persons[indexPath.row]
+        }
     }
     
 
